@@ -28,19 +28,30 @@ A API fica disponível em **http://localhost:3001**.
 
 ## Sumário
 
-1. [Descrição do problema](#1-descrição-do-problema)
-2. [Tecnologias](#2-tecnologias)
-3. [Estrutura do projeto](#3-estrutura-do-projeto)
-4. [Como rodar com Docker Compose](#4-como-rodar-com-docker-compose)
-5. [Como rodar localmente](#5-como-rodar-localmente)
-6. [Variáveis de ambiente](#6-variáveis-de-ambiente)
-7. [Banco de dados](#7-banco-de-dados)
-8. [Endpoints](#8-endpoints)
-9. [Regras de negócio](#9-regras-de-negócio)
-10. [Testes](#10-testes)
-11. [Princípio SOLID aplicado](#11-princípio-solid-aplicado)
-12. [Docker](#12-docker)
-13. [Autoria e Copyright](#13-autoria-e-copyright)
+- [HelpTech API](#helptech-api)
+  - [Começando rápido](#começando-rápido)
+  - [Sumário](#sumário)
+  - [1. Descrição do problema](#1-descrição-do-problema)
+  - [2. Tecnologias](#2-tecnologias)
+  - [3. Estrutura do projeto](#3-estrutura-do-projeto)
+  - [4. Como rodar com Docker Compose](#4-como-rodar-com-docker-compose)
+  - [5. Como rodar localmente](#5-como-rodar-localmente)
+  - [6. Variáveis de ambiente](#6-variáveis-de-ambiente)
+  - [7. Banco de dados](#7-banco-de-dados)
+  - [8. Endpoints](#8-endpoints)
+    - [POST `/chamados` — abrir um chamado](#post-chamados--abrir-um-chamado)
+    - [GET `/chamados` — listar chamados](#get-chamados--listar-chamados)
+    - [GET `/chamados/:id` — consultar um chamado](#get-chamadosid--consultar-um-chamado)
+    - [GET `/health` — verificação rápida](#get-health--verificação-rápida)
+    - [Resumo](#resumo)
+  - [9. Regras de negócio](#9-regras-de-negócio)
+  - [10. Testes](#10-testes)
+  - [11. Princípio SOLID aplicado](#11-princípio-solid-aplicado)
+  - [12. Docker](#12-docker)
+  - [13. Autoria e Copyright](#13-autoria-e-copyright)
+    - [Autoria e liderança técnica](#autoria-e-liderança-técnica)
+    - [Colaboração](#colaboração)
+- [](#)
 
 ---
 
@@ -337,5 +348,4 @@ aproveitar o cache de camadas), instala só dependências de produção com
 
 Projeto desenvolvido para a disciplina de **Projeto Integrador** —
 Bacharelado em Ciência da Computação, FACAPE.
-#   P r o j e t o - F a c u l d a d e - S I  
- 
+#
