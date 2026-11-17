@@ -17,7 +17,7 @@ API REST para **abertura e consulta de chamados de suporte de TI**.
 
 ```bash
 git clone <URL-DO-REPOSITORIO>
-cd pj-sist-gustavo
+cd trab-gust
 docker compose up -d --build
 curl http://localhost:3001/health
 ```
